@@ -1,0 +1,17 @@
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Droid\bin\Debug\StackSnapMvvmCross.Droid.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\MonoAndroid\Cirrious.CrossCore.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\MonoAndroid\Cirrious.CrossCore.Droid.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Binding.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Binding.Droid.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Droid.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Localization.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.Plugin.File.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.File.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.Plugin.File.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.File.Droid.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.Plugin.Messenger.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Messenger.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.Plugin.Network.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Network.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.Plugin.Network.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Network.Droid.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.Plugin.WebBrowser.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.WebBrowser.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\packages\MvvmCross.HotTuna.Plugin.WebBrowser.3.1.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.WebBrowser.Droid.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Debug\Plugin.Dralle.dll
+C:\Users\olefa_000\Documents\Visual Studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\StackSnapMvvmCross.Core.dll
