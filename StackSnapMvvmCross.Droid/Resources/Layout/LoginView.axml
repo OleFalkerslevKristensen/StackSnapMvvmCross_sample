@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/forestBackground"
+    android:id="@+id/welcomeImageView">
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/footer"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/LoginLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/LoginLogo" />
+            <TextView
+                android:id="@+id/applicationId"
+                android:layout_below="@+id/LoginLogo"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:text="@string/ApplicationName" />
+            <TextView
+                android:id="@+id/ServerIdLabel"
+                android:layout_below="@+id/applicationId"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:textSize="16sp"
+                android:text="@string/ServerIdText" />
+            <EditText
+                android:id="@+id/serverIdText"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:layout_below="@+id/ServerIdLabel"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:textSize="16sp"
+                local:MvxBind="Text ServerId"
+                android:background="@drawable/border" />
+            <Spinner
+                android:id="@+id/spinnerServerId"
+                android:layout_toRightOf="@+id/serverIdText"
+                android:layout_below="@+id/ServerIdLabel"
+                android:layout_width="150dp"
+                android:layout_marginLeft="-155dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/UserNameLabel"
+                android:layout_below="@+id/serverIdText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:text="@string/UsernameText" />
+            <EditText
+                android:id="@+id/userNameText"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:layout_below="@+id/UserNameLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                local:MvxBind="Text UserName"
+                android:background="@drawable/border" />
+            <Spinner
+                android:id="@+id/spinnerUsername"
+                android:layout_toRightOf="@+id/userNameText"
+                android:layout_below="@+id/UserNameLabel"
+                android:layout_width="150dp"
+                android:layout_marginLeft="-155dp"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:id="@+id/checkBoxFrame"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/spinnerUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+                <CheckBox
+                    android:id="@+id/passwordcheckbox"
+                    android:layout_below="@+id/passworddesc"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:button="@drawable/checkboxtheme"
+                    android:layout_marginLeft="15dp" />
+                <TextView
+                    android:id="@+id/checkBoxText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/passwordcheckbox"
+                    android:layout_marginTop="2dp"
+                    android:singleLine="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:text="@string/showpasswordsText" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/passwordLabel"
+                android:layout_below="@+id/checkBoxFrame"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:text="@string/PasswordText" />
+            <EditText
+                android:id="@+id/passwordText"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:layout_below="@+id/passwordLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:background="@drawable/border"
+                android:singleLine="true"
+                local:MvxBind="Text Password"
+                android:imeOptions="actionDone" />
+            <RelativeLayout
+                android:id="@+id/FooterLayout"
+                android:layout_below="@+id/passwordText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/transparent">
+                <View
+                    android:id="@+id/strut"
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/infoText" />
+                <Button
+                    android:background="@drawable/button_custom"
+                    android:id="@+id/loginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/strut"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/LoginText"
+                    style="@style/ButtonTextStyle" />
+                <Button
+                    android:background="@drawable/button_custom"
+                    android:id="@+id/aboutButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/strut"
+                    android:layout_marginRight="20dp"
+                    android:textSize="16sp"
+                    android:text="@string/aboutText"
+                    local:MvxBind="Click DoAbout"
+                    style="@style/ButtonTextStyle" />
+                <ProgressBar
+                    android:id="@+id/ProgressSpinner"
+                    android:layout_below="@+id/loginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:visibility="gone"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@xml/progress" />
+                <TextView
+                    android:id="@+id/Processing"
+                    android:layout_toRightOf="@+id/ProgressSpinner"
+                    android:layout_below="@+id/loginButton"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/LoggingOnText" />
+                <TextView
+                    android:id="@+id/filler"
+                    android:layout_below="@+id/ProgressSpinner"
+                    android:textColor="@android:color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:textSize="16sp"
+                    android:text="" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

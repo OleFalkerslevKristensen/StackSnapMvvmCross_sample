@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="opaque_red">#f00</color>
+  <color name="translucent_red">#80ff0000</color>
+  <color name="lightgray">#E0E0E0</color>
+  <color name="darkgray">#808080</color>
+  <color name="gray">#c0c0c0</color>
+  <color name="actionbarcolor">#000000</color>
+  <color name="textlightblue">#6CAEFF</color>
+</resources>
+

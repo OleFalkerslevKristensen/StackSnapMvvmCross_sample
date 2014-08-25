@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackSnapMvvmCross.Core", "StackSnapMvvmCross.Core\StackSnapMvvmCross.Core.csproj", "{AF810E89-B19E-40AF-8139-6DE0229C8D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackSnapMvvmCross.Droid", "StackSnapMvvmCross.Droid\StackSnapMvvmCross.Droid.csproj", "{B88DD2A6-A00B-4C2A-A629-01427FF42A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Dralle", "Plugin.Dralle\Plugin.Dralle.csproj", "{4597E631-BC45-4122-B9CE-1441F636D2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Dralle.Droid", "Plugin.Dralle.Droid\Plugin.Dralle.Droid.csproj", "{8DBDDA1D-36AD-48B3-B2A5-45179D2613A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF810E89-B19E-40AF-8139-6DE0229C8D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF810E89-B19E-40AF-8139-6DE0229C8D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF810E89-B19E-40AF-8139-6DE0229C8D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF810E89-B19E-40AF-8139-6DE0229C8D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88DD2A6-A00B-4C2A-A629-01427FF42A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88DD2A6-A00B-4C2A-A629-01427FF42A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88DD2A6-A00B-4C2A-A629-01427FF42A31}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B88DD2A6-A00B-4C2A-A629-01427FF42A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88DD2A6-A00B-4C2A-A629-01427FF42A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88DD2A6-A00B-4C2A-A629-01427FF42A31}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4597E631-BC45-4122-B9CE-1441F636D2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4597E631-BC45-4122-B9CE-1441F636D2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4597E631-BC45-4122-B9CE-1441F636D2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4597E631-BC45-4122-B9CE-1441F636D2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBDDA1D-36AD-48B3-B2A5-45179D2613A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBDDA1D-36AD-48B3-B2A5-45179D2613A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBDDA1D-36AD-48B3-B2A5-45179D2613A7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8DBDDA1D-36AD-48B3-B2A5-45179D2613A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBDDA1D-36AD-48B3-B2A5-45179D2613A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBDDA1D-36AD-48B3-B2A5-45179D2613A7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

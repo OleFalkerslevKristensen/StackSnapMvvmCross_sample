@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StackSnapMvvmCross.Core\ViewModels\LoginViewModel.cs">
+    <Files>
+      <File FileName="StackSnapMvvmCross.Core\ViewModels\LoginViewModel.cs" Line="12" Column="9" />
+      <File FileName="StackSnapMvvmCross.Droid\Views\LoginView.cs" Line="29" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
