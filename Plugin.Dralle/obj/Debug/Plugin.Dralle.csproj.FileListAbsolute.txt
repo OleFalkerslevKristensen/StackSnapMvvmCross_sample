@@ -1,0 +1,8 @@
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Debug\Plugin.Dralle.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Debug\Plugin.Dralle.pdb
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Debug\Cirrious.MvvmCross.Plugins.DownloadCache.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\obj\Debug\Plugin.Dralle.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\obj\Debug\Plugin.Dralle.pdb
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\obj\Debug\Plugin.Dralle.csprojResolveAssemblyReference.cache

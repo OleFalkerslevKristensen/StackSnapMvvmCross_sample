@@ -1,0 +1,7 @@
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Release\Plugin.Dralle.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Release\Plugin.Dralle.pdb
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Release\Cirrious.CrossCore.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Release\Cirrious.MvvmCross.Localization.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\bin\Release\Cirrious.MvvmCross.Plugins.DownloadCache.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\obj\Release\Plugin.Dralle.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\Plugin.Dralle\obj\Release\Plugin.Dralle.pdb
