@@ -1,0 +1,15 @@
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\StackSnapMvvmCross.Core.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\StackSnapMvvmCross.Core.pdb
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Cirrious.CrossCore.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Cirrious.MvvmCross.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Cirrious.MvvmCross.Localization.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Cirrious.MvvmCross.Plugins.DownloadCache.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Cirrious.MvvmCross.Plugins.File.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Cirrious.MvvmCross.Plugins.Messenger.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Cirrious.MvvmCross.Plugins.Network.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Cirrious.MvvmCross.Plugins.WebBrowser.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Plugin.Dralle.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Release\Plugin.Dralle.pdb
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\obj\Release\StackSnapMvvmCross.Core.csprojResolveAssemblyReference.cache
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\obj\Release\StackSnapMvvmCross.Core.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\obj\Release\StackSnapMvvmCross.Core.pdb

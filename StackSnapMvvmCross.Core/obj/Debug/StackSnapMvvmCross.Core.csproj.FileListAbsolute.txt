@@ -1,0 +1,15 @@
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\StackSnapMvvmCross.Core.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\StackSnapMvvmCross.Core.pdb
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Cirrious.MvvmCross.Plugins.DownloadCache.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Cirrious.MvvmCross.Plugins.File.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Cirrious.MvvmCross.Plugins.Network.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Cirrious.MvvmCross.Plugins.WebBrowser.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Plugin.Dralle.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\bin\Debug\Plugin.Dralle.pdb
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\obj\Debug\StackSnapMvvmCross.Core.csprojResolveAssemblyReference.cache
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\obj\Debug\StackSnapMvvmCross.Core.dll
+C:\Users\olefa_000\documents\visual studio 2012\Projects\StackSnapMvvmCross\StackSnapMvvmCross.Core\obj\Debug\StackSnapMvvmCross.Core.pdb

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF810E89-B19E-40AF-8139-6DE0229C8D2D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StackSnapMvvmCross.Core</RootNamespace>
+    <AssemblyName>StackSnapMvvmCross.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile158</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Data\Statics.cs" />
+    <Compile Include="Data\StackData.cs" />
+    <Compile Include="Data\UserData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DralleService\PingMessage.cs" />
+    <Compile Include="Services\DralleService\RegisterMessage.cs" />
+    <Compile Include="ViewModels\FirstViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Cirrious.CrossCore">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.CrossCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross">
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.DownloadCache">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.DownloadCache.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Plugins.DownloadCache.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.File">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.File.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Plugins.File.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Messenger">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Messenger.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Network">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Network.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Plugins.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.WebBrowser">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.WebBrowser.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Plugins.WebBrowser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Plugin.Dralle\Plugin.Dralle.csproj">
+      <Project>{4597e631-bc45-4122-b9ce-1441f636d2cc}</Project>
+      <Name>Plugin.Dralle</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
